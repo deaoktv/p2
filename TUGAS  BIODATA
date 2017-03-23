@@ -1,0 +1,37 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main()
+{
+
+    char nama [100];
+    int nim;
+    float ttl (100);
+    char alamat (100);
+    char agama (100);
+    char goldar (100);
+    char hobi (100);
+    char cita (100);
+
+    cout << "Nama : ";
+    cin >> nama; //membaca inputan dari keyboard
+    cout << "NIM :";
+    cin >> nim; //membaca inputan dari keyboard
+    cout << "Tempat Tanggal Lahir :";
+    cin >> ttl; //membaca inputan dari keyboard
+    cout << "Alamat :";
+    cin >> alamat; //membaca inputan dari keyboard
+    cout << "Agama :";
+    cin >> agama; //membaca inputan dari keyboard
+    cout << "Golongan Darah :";
+    cin >> goldar; //membaca inputan dari keyboard
+    cout << "Hobi :";
+    cin >> hobi; //membaca inputan dari keyboard
+    cout << "Cita-Cita :" ;
+    cin >> cita; //membaca inputan dari keyboard
+    system("cls");
+
+
+    return 0;
+
+}
