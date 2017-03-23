@@ -1,0 +1,20 @@
+/*
+Nama source file : operator informatika
+*/
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+int r = 10;
+int s;
+
+r++;
+s = 10 + r;
+
+cout <<"r = "<<r<<'\n';
+cout <<"s = "<<s<<'\n';
+cout <<"Hasil dari 5 % 7 adalah " << 5%7<<'\n';
+
+return 0;
+}
