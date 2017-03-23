@@ -1,0 +1,29 @@
+/*
+Nama source file : operator_aritmatika
+*/
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    int a ;
+    int b  ;
+    int l ;
+    int k ;
+
+    cout << "panjang : ";
+    cin >> a ;//membaca inputan dari keyboard
+    cout << "lebar : ";
+    cin >> b ;//membaca inputan dari keyboard
+
+    l = a*b;
+    k = 2*a+b;
+
+    cout <<"keliling : "<<k<<endl;
+    cout << "Luas : "<<l<<endl;
+
+    return 0;
+
+
+}
+
